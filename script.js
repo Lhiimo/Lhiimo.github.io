@@ -9,11 +9,11 @@ const projects = {
         description: "Atmospheric architectural artwork focused on scale, mood and dark fantasy presentation. includes a making-of video.",
         tags: ["Environment", "Mood", "Lighting", "Composition"],
         images: [
-            "Images/EmptyPalace(art by Lhimo).png",
-            "Images/EmptyPalace2(art by Lhimo).png",
-            "Images/EmptyPalace3(art by Lhimo).png",
-            "Images/EmptyPalace4(art by Lhimo).png",
-            "Images/EmptyPalace Step-by-step(video).mp4"
+            "Images/empty-palace-main.png",
+            "Images/empty-palace-2.png",
+            "Images/empty-palace-3.png",
+            "Images/empty-palace-4.png",
+            "Images/empty-palace-step.mp4"
         ],
         links: []
     },
@@ -21,12 +21,12 @@ const projects = {
         title: "Cat Island",
         type: "Environment / diorama study",
         description: "Stylized diorama study focused on color, mood variation and hand-painted presentation. Presented as a visual study rather than a production-optimized asset.",
-        tags: ["Environment", "Diorama", "Hand-Painted", "Substance Painter", "ZBrush", "Maya"],
+        tags: ["Environment", "Diorama", "Hand-Painted", "Substance Painter", "ZBrush", "Maya", "Photoshop"],
         images: [
-            "Images/Cat Island(day time).jpeg",
-            "Images/Cat Island(day time)2.png",
-            "Images/Cat Island(night time).PNG",
-            "Images/Cat Island(night time)2.PNG"
+            "Images/cat-island-day.jpeg",
+            "Images/cat-island-day-2.png",
+            "Images/cat-island-night.png",
+            "Images/cat-island-night-2.png"
         ],
         links: [
             { label: "View on Sketchfab", url: "https://sketchfab.com/3d-models/cat-island-e7a30e57808a46c9a56b1b1a2b378ac0" }
@@ -38,11 +38,11 @@ const projects = {
         description: "Low-poly marine creature set made for stylized game use, including manta ray, hammerhead shark, orca and humpback whale.",
         tags: ["Creatures", "Low-Poly", "Game Assets", "Stylized"],
         images: [
-            "Images/sea creatures(Art by Lhimo).jpeg",
-            "Images/sea creatures 2.jpeg",
-            "Images/sea creatures 3.jpeg",
-            "Images/sea creatures 4.jpeg",
-            "Images/sea creatures 5.jpeg"
+            "Images/sea-creatures-main.jpeg",
+            "Images/sea-creatures-2.jpeg",
+            "Images/sea-creatures-3.jpeg",
+            "Images/sea-creatures-4.jpeg",
+            "Images/sea-creatures-5.jpeg"
         ],
         links: [
             { label: "View on Sketchfab", url: "https://sketchfab.com/3d-models/sea-creatures-a9e579418f36468ba33902eeb8d9d96a" }
@@ -51,14 +51,14 @@ const projects = {
     "carnotaurus": {
         title: "Carnotaurus",
         type: "Creature / stylized game asset",
-        description: "Stylized creature model with animation tests, sculpted in ZBrush, UVs and animation in Blender, and textures in Substance Painter.",
-        tags: ["Creature", "ZBrush", "Blender", "Substance Painter", "Animation"],
+        description: "Stylized creature model with 7 animations, sculpted in ZBrush, UVs and animation in Blender, and textures in Substance Painter.",
+        tags: ["Creature", "ZBrush", "Blender", "Substance Painter", "Animation", "Krita"],
         images: [
-            "Images/Carnotauro(art by Lhimo).jpg",
-            "Images/Carnotauro02.PNG",
-            "Images/CarnoWireframe.PNG",
-            "Images/CarnoMatcap.PNG",
-            "Images/CarnoMatcap+surface.PNG"
+            "Images/carnotaurus-main.jpg",
+            "Images/carnotaurus-02.png",
+            "Images/carno-wireframe.png",
+            "Images/carno-matcap.png",
+            "Images/carno-matcap-surface.png"
         ],
         links: [
             { label: "View on Sketchfab", url: "https://sketchfab.com/3d-models/carnotaurus-2ed3531d468841c2b635650a16abb353" }
@@ -68,7 +68,7 @@ const projects = {
         title: "Nemesis",
         type: "Character / creature design",
         description: "Character-focused renders exploring silhouette, form, lighting and presentation across multiple final images.",
-        tags: ["Character", "Creature Design", "Rendering", "Presentation"],
+        tags: ["Character", "Creature Design", "Rendering", "Cinema 4D", "Hand-painted"],
         images: [
             "Images/Nemesis1.png",
             "Images/Nemesis2.png",
@@ -81,14 +81,14 @@ const projects = {
     "moon-guardian": {
         title: "Moon Guardian",
         type: "Character / stylized design",
-        description: "Stylized character study focused on shape language, expression and presentation across multiple image variations.",
+        description: "Stylized character study focused on shape language, expression and presentation.",
         tags: ["Character", "Stylized", "Design", "Presentation"],
         images: [
-            "Images/MoonGuardian(art by Lhimo) (1).jpg",
-            "Images/MoonGuardian(art by Lhimo) (2).jpg",
-            "Images/MoonGuardian(art by Lhimo) (3).jpg",
-            "Images/MoonGuardian(art by Lhimo) (4).jpg",
-            "Images/MoonGuardian(art by Lhimo) (5).jpg"
+            "Images/moon-guardian-1.webp",
+            "Images/moon-guardian-2.webp",
+            "Images/moon-guardian-3.webp",
+            "Images/moon-guardian-4.webp",
+            "Images/moon-guardian-5.webp"
         ],
         links: []
     }
@@ -271,6 +271,7 @@ modelDots.forEach((dot) => {
         showModel(Number(dot.dataset.modelDot));
     });
 });
+
 
 
 
