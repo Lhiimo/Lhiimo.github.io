@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Lhimo Portfolio</title>
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header" id="home">
+            <a class="brand" href="#home" aria-label="Lhimo portfolio home">
+                <span class="brand-mark">L</span>
+                <span>Lhimo</span>
+            </a>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#works">My Works</a>
+                <a href="#models">3D Models</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero section-band" aria-labelledby="hero-title">
+                <div class="hero-copy">
+                    <p class="eyebrow">3D Artist & Game Developer</p>
+                    <h1 id="hero-title" class="main-title">Lhimo</h1>
+                    <p class="hero-lead">Character sculpting, creatures, environments and game-ready assets.</p>
+                    <div class="hero-actions" aria-label="Portfolio links">
+                        <a class="button button-primary" href="#works">View Works</a>                        
+                    </div>
+                </div>
+
+                <figure class="hero-art">
+                    <img src="Images/EmptyPalace(art by Lhimo).png" alt="Empty Palace artwork by Lhimo">
+                    <figcaption>Featured artwork: Empty Palace</figcaption>
+                </figure>
+            </section>
+
+            <section class="section-band intro-grid" aria-label="Professional focus">
+                <article>
+                    <span class="stat-number">3D</span>
+                    <p>Game-ready assets, sculpted forms and stylized presentation for interactive projects.</p>
+                </article>
+                <article>
+                    <span class="stat-number">4</span>
+                    <p>Main portfolio categories: Environment, Characters, Creatures and VFX.</p>
+                </article>
+                <article>
+                    <span class="stat-number">Tools</span>
+                    <p>Maya, Blender, ZBrush, Substance, Unity, Unreal, Photoshop and Cinema 4D.</p>
+                </article>
+            </section>
+
+            <section class="section-band works-section" id="works" aria-labelledby="works-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Selected portfolio</p>
+                    <h2 id="works-title">My Works</h2>
+                    <p>A Showcase of my works grouped by categories.</p>
+                </div>
+
+                <div class="filter-bar" aria-label="Filter works by category">
+                    <button class="filter-button is-active" type="button" data-filter="all">All</button>
+                    <button class="filter-button" type="button" data-filter="environment">Environment</button>
+                    <button class="filter-button" type="button" data-filter="characters">Characters</button>
+                    <button class="filter-button" type="button" data-filter="creatures">Creatures</button>
+                    <button class="filter-button" type="button" data-filter="vfx">VFX</button>
+                </div>
+
+                <div class="work-grid">
+                    <article class="work-card" data-category="environment">
+                        <button class="work-card-button" type="button" data-project="empty-palace">
+                            <img src="Images/EmptyPalace(art by Lhimo).png" alt="Empty Palace artwork by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Environment / mood piece</span>
+                                <span class="work-card-title">Empty Palace</span>
+                                <span class="work-card-copy">Atmospheric architectural artwork and environment mood study.</span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="work-card" data-category="environment">
+                        <button class="work-card-button" type="button" data-project="cat-island">
+                            <img src="Images/Cat Island(day time).jpeg" alt="Cat Island daytime render by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Environment / diorama study</span>
+                                <span class="work-card-title">Cat Island</span>
+                                <span class="work-card-copy">Stylized diorama focused on mood, color and hand-painted presentation.</span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="work-card" data-category="creatures">
+                        <button class="work-card-button" type="button" data-project="sea-creatures">
+                            <img src="Images/sea creatures(Art by Lhimo).jpeg" alt="Sea Creatures render by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Creatures / low-poly assets</span>
+                                <span class="work-card-title">Sea Creatures</span>
+                                <span class="work-card-copy">Game-ready marine creature set for stylized projects.</span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="work-card" data-category="creatures">
+                        <button class="work-card-button" type="button" data-project="carnotaurus">
+                            <img src="Images/Carnotauro(art by Lhimo).jpg" alt="Carnotaurus render by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Creature / stylized game asset</span>
+                                <span class="work-card-title">Carnotaurus</span>
+                                <span class="work-card-copy">Stylized creature model with animation tests and game asset workflow.</span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="work-card" data-category="characters">
+                        <button class="work-card-button" type="button" data-project="nemesis">
+                            <img src="Images/Nemesis1.png" alt="Nemesis character render by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Character design</span>
+                                <span class="work-card-title">Nemesis</span>
+                                <span class="work-card-copy">Character-focused renders showing form, mood and presentation.</span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="work-card" data-category="characters">
+                        <button class="work-card-button" type="button" data-project="moon-guardian">
+                            <img src="Images/MoonGuardian(art by Lhimo) (1).jpg" alt="Moon Guardian character artwork by Lhimo">
+                            <span class="work-card-overlay">Show more</span>
+                            <span class="work-card-body">
+                                <span class="work-type">Character design</span>
+                                <span class="work-card-title">Moon Guardian</span>
+                                <span class="work-card-copy">Stylized character study focused on shape language, expression and presentation.</span>
+                            </span>
+                        </button>
+                    </article>
+                </div>
+                <p class="empty-message" hidden>No selected works in this category yet.</p>
+            </section>
+
+            <section class="section-band models-section" id="models" aria-labelledby="models-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Interactive presentation</p>
+                    <h2 id="models-title">3D Models</h2>
+                    <p>Sketchfab embeds.</p>
+                </div>
+
+                <div class="model-carousel" aria-label="Featured 3D model carousel">
+                    <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous 3D model">&lt;</button>
+
+                    <div class="model-stage">
+                        <article class="model-frame is-active" data-model-slide>
+                            <iframe title="Sea Creatures 3D model by Lhimo" src="https://sketchfab.com/models/a9e579418f36468ba33902eeb8d9d96a/embed" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+                            <div>
+                                <p class="work-type">Creature set / low-poly</p>
+                                <h3>Sea Creatures</h3>
+                                <p>Low-poly marine creatures for game use.</p>
+                            </div>
+                        </article>
+
+                        <article class="model-frame" data-model-slide hidden>
+                            <iframe title="Carnotaurus 3D model by Lhimo" src="https://sketchfab.com/models/2ed3531d468841c2b635650a16abb353/embed" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+                            <div>
+                                <p class="work-type">Creature asset / animated</p>
+                                <h3>Carnotaurus</h3>
+                                <p>Stylized animated creature asset.</p>
+                            </div>
+                        </article>
+                        <article class="model-frame" data-model-slide hidden>
+                            <iframe title="Cat Island 3D model by Lhimo" src="https://sketchfab.com/models/e7a30e57808a46c9a56b1b1a2b378ac0/embed" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+                            <div>
+                                <p class="work-type">Environment / diorama</p>
+                                <h3>Cat Island</h3>
+                                <p>Stylized diorama with day and night presentation.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <button class="carousel-button" type="button" data-carousel-next aria-label="Next 3D model">&gt;</button>
+                </div>
+
+                <div class="carousel-dots" aria-label="3D model slide selection">
+                    <button class="carousel-dot is-active" type="button" data-model-dot="0" aria-label="Show Sea Creatures"></button>
+                    <button class="carousel-dot" type="button" data-model-dot="1" aria-label="Show Carnotaurus"></button>
+                    <button class="carousel-dot" type="button" data-model-dot="2" aria-label="Show Cat Island"></button>
+                </div>
+            </section>
+
+            <section class="section-band skills-section" id="skills" aria-labelledby="skills-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Production profile</p>
+                    <h2 id="skills-title">Skills</h2>
+                    <p>A compact view of your current production strengths and tools.</p>
+                </div>
+
+                <div class="skills-layout">
+                    <div>
+                        <h3>Proficience with</h3>
+                        <ul class="tag-list">
+                            <li>Character Sculpting</li>
+                            <li>Game-Ready Assets</li>
+                            <li>Creature Modeling</li>
+                            <li>Environment Art</li>
+                            <li>Hand-Painted Textures</li>
+                            <li>Stylized</li>
+                            <li>Low-poly</li>
+                            <li>High-Poly</li>
+                            <li>Hard surface</li>
+                            <li>Soft Body</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Softwares</h3>
+                        <ul class="tag-list">
+                            <li>Blender</li>
+                            <li>Maya</li>
+                            <li>ZBrush</li>
+                            <li>Substance</li>
+                            <li>Unity</li>
+                            <li>Unreal</li>
+                            <li>Photoshop</li>
+                            <li>Cinema 4D</li>                        
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-band about-section" id="about" aria-labelledby="about-title">
+                <div class="section-heading">
+                    <p class="eyebrow">About</p>
+                    <h3 id="about-title">Mateus Alves de Lima</h3>
+                </div>
+                <p>I'm a 3D artist and game developer based in Sao Paulo, Brazil, focused on character sculpting, creatures, environments and game-ready assets.</p>
+                <p>The goal of this portfolio is to present my works to the world, be it to showcase for studios and clients or to inspire people who appreciate my work.</p>
+            </section>
+
+            <section class="section-band contact-section" id="contact" aria-labelledby="contact-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Contact</p>
+                    <h2 id="contact-title">Let's Work Together</h2>
+                    <p>For hiring, freelance work or collaboration, email is the best direct contact. You can also review more work through the links below.</p>
+                    <p class="contact-email">mateus.lhimo@gmail.com</p>
+                </div>
+
+                <div class="link-grid">
+                    <a href="https://sketchfab.com/Lhimo" target="_blank" rel="noreferrer">Sketchfab</a>
+                    <a href="https://cara.app/lhimo" target="_blank" rel="noreferrer">Cara</a>
+                    <a href="https://www.artstation.com/mateusdelima11" target="_blank" rel="noreferrer">ArtStation</a>
+                    <a href="https://www.instagram.com/lhimoo/" target="_blank" rel="noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/in/mateus-alves-de-lima-lhimo/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <dialog class="case-modal" id="case-modal" aria-labelledby="case-title">
+        <div class="case-modal-panel">
+            <button class="case-close" type="button" aria-label="Close case">X</button>
+
+            <div class="case-media">
+                <img class="case-main-media" id="case-main-image" src="" alt="">
+                <video class="case-main-media" id="case-main-video" controls playsinline hidden></video>
+                <div class="case-thumbnails" id="case-thumbnails" aria-label="Case image thumbnails"></div>
+            </div>
+
+            <div class="case-info">
+                <p class="work-type" id="case-type"></p>
+                <h2 id="case-title"></h2>
+                <p id="case-description"></p>
+                <ul class="tag-list" id="case-tags"></ul>
+                <div class="case-actions" id="case-actions"></div>
+            </div>
+        </div>
+    </dialog>
+    <script src="script.js?v=empty-palace-step-video"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
