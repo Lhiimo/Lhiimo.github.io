@@ -64,6 +64,41 @@ const projects = {
             { label: "View on Sketchfab", url: "https://sketchfab.com/3d-models/carnotaurus-2ed3531d468841c2b635650a16abb353" }
         ]
     },
+    "ceratosaurus": {
+        title: "Ceratosaurus",
+        type: "Creature / stylized game asset",
+        description: "Stylized Ceratosaurus creature model built for game-ready presentation, with render passes and animation-focused showcase material.",
+        tags: ["Creature", "Dinosaur", "Game Asset", "Stylized", "Animation", "Blender"],
+        images: [
+            "Images/Cerato07.PNG",
+            "Images/Cerato01.PNG",
+            "Images/Cerato02.PNG",
+            "Images/Cerato03.PNG",
+            "Images/Cerato04.PNG",
+            "Images/Cerato05.PNG",
+            "Images/Cerato06.PNG",
+            "Images/GenTheropodAnimations_RetargetedToCeratosaurus.mp4"
+        ],
+        links: [
+            { label: "View on Sketchfab", url: "https://sketchfab.com/3d-models/ceratosaurus-a105f43e35824a78ae3cf92ef796ea4d" }
+        ]
+    },
+    "theropod-animation-pack": {
+        title: "Theropod Animation System",
+        type: "Creature animation pipeline",
+        description: "Blender controller setup for theropod animation, with Unity retargeting demonstrations across different models that share the same bone structure.",
+        tags: ["Animation", "Creature", "Theropod", "Blender Controllers", "Unity Retargeting", "Technical Art"],
+        images: [
+            "Images/GenTheropod_ControllersSetup.PNG",
+            "Images/How to reutilize the GenTheropodAnimations(FHD).jpg",
+            "Images/GenTheropodAnimations_BlankTheropod.mp4",
+            "Images/GenTheropodAnimations_RetargetedToCeratosaurus.mp4",
+            "Images/GenTheropod_blender controllers showcase.mp4"
+        ],
+        links: [
+            { label: "View on Fab", url: "https://www.fab.com/listings/46a098bb-6411-4bc0-99da-60ec032fa987" }
+        ]
+    },
     "nemesis": {
         title: "Nemesis",
         type: "Character / creature design",
