@@ -1,8 +1,43 @@
 ﻿const filterButtons = document.querySelectorAll(".filter-button");
-const workCards = document.querySelectorAll(".work-card");
+const workCards = document.querySelectorAll("#works .work-card");
 const emptyMessage = document.querySelector(".empty-message");
 
 const projects = {
+    "aion": {
+        title: "Aion",
+        type: "Endureeon / Character / Work in progress",
+        description: "Aion is a character from Endureeon, a game I am developing independently. These work-in-progress images show the character across different poses and views. The design and assets are still in development.",
+        tags: ["Endureeon", "Character", "Personal Game", "Work in Progress"],
+        images: [
+            "Images/Aion posing.png",
+            "Images/Aion Confident.png",
+            "Images/Aion SideProfile.png",
+            "Images/Aion BackView.png",
+            "Images/Aion Biceps.png",
+            "Images/Aion Hush.png",
+            "Images/Aion LookingUp.png",
+            "Images/Aion Peace.png",
+            "Images/Aion PowPow.png"
+        ],
+        links: []
+    },
+    "laelaps": {
+        title: "Laelaps",
+        type: "Endureeon / Character / Work in progress",
+        description: "Laelaps is a character from Endureeon, a game I am developing independently. This gallery presents work-in-progress views of the character. The design and assets are still in development.",
+        tags: ["Endureeon", "Character", "Personal Game", "Work in Progress"],
+        images: [
+            "Images/Laelaps01.png",
+            "Images/Laelaps02.png",
+            "Images/Laelaps03.png",
+            "Images/Laelaps04.png",
+            "Images/Laelaps05.png",
+            "Images/Laelaps06.png",
+            "Images/Laelaps07.png",
+            "Images/Laelaps08.png"
+        ],
+        links: []
+    },
     "empty-palace": {
         title: "Empty Palace",
         type: "Environment / mood piece",

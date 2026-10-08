@@ -444,6 +444,19 @@ p {
     display: none;
 }
 
+.current-project-intro {
+    max-width: 720px;
+    margin-bottom: 24px;
+}
+
+.current-project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.current-project-grid .work-card img {
+    object-fit: contain;
+}
+
 .work-card img,
 .work-card-media {
     width: 100%;
@@ -639,7 +652,7 @@ p {
 }
 
 .contact-section .link-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
 }
 
