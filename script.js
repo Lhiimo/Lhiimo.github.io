@@ -24,8 +24,8 @@ const projects = {
     "laelaps": {
         title: "Laelaps",
         type: "Endureeon / Character / Work in progress",
-        description: "Laelaps is a character from Endureeon, a game I am developing independently. This gallery presents work-in-progress views of the character. The design and assets are still in development.",
-        tags: ["Endureeon", "Character", "Personal Game", "Work in Progress"],
+        description: "Laelaps is a character from Endureeon, a game I am developing independently. This gallery presents work-in-progress views of the character and an animation test exploring the rig in motion. The design, rig and animations are still in development.",
+        tags: ["Endureeon", "Character", "Personal Game", "Rigging", "Animation Test", "Work in Progress"],
         images: [
             "Images/Laelaps01.png",
             "Images/Laelaps02.png",
@@ -34,7 +34,8 @@ const projects = {
             "Images/Laelaps05.png",
             "Images/Laelaps06.png",
             "Images/Laelaps07.png",
-            "Images/Laelaps08.png"
+            "Images/Laelaps08.png",
+            "Images/Laelaps(Animation_test).mp4"
         ],
         links: []
     },
