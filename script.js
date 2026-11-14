@@ -103,7 +103,7 @@ const projects = {
     "ceratosaurus": {
         title: "Ceratosaurus",
         type: "Creature / stylized game asset",
-        description: "Stylized Ceratosaurus creature model built for game-ready presentation, with render passes and animation-focused showcase material.",
+        description: "Stylized Ceratosaurus creature model built for game-ready presentation, with Blender EEVEE renders, render passes and animation-focused showcase material.",
         tags: ["Creature", "Dinosaur", "Game Asset", "Stylized", "Animation", "Blender"],
         images: [
             "Images/Cerato07.PNG",
@@ -113,6 +113,12 @@ const projects = {
             "Images/Cerato04.PNG",
             "Images/Cerato05.PNG",
             "Images/Cerato06.PNG",
+            "Images/Cera05.png",
+            "Images/Cera06.png",
+            "Images/Cera07.png",
+            "Images/Cera08.png",
+            "Images/Cera09.png",
+            "Images/Cera010.png",
             "Images/GenTheropodAnimations_RetargetedToCeratosaurus.mp4"
         ],
         links: [
