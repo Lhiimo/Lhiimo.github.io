@@ -3,6 +3,33 @@ const workCards = document.querySelectorAll("#works .work-card");
 const emptyMessage = document.querySelector(".empty-message");
 
 const projects = {
+    "baryonyx": {
+        title: "Baryonyx — Creature Design",
+        type: "Endureeon / Creature Design / Work in progress",
+        description: "A stylized Baryonyx creature design for Endureeon, a game I am developing independently. Grounded in paleontology and real animal anatomy, the design draws on crocodiles for speculative skin textures and surface details, while incorporating a subtly mystical presence. These work-in-progress renders and a swimming animation explore the design and movement as development continues.",
+        tags: ["Endureeon", "Creature Design", "Stylized", "Animation", "Work in Progress"],
+        images: [
+            "Images/Baryonyx01.png",
+            "Images/Baryonyx02.png",
+            "Images/Baryonyx03.png",
+            "Images/Baryonyx04.png",
+            "Images/Baryonyx05.png",
+            "Images/Baryonyx06.png",
+            "Images/Baryonyx07.png",
+            "Images/Baryonyx08.png",
+            "Images/Baryonyx09.png",
+            "Images/Baryonyx010.png",
+            "Images/Baryonyx011.png",
+            "Images/Baryonyx012.png",
+            "Images/Baryonyx013.png",
+            "Images/Baryonyx014.png",
+            "Images/Baryonyx015.png",
+            "Images/Baryonyx016.png",
+            "Images/Baryonyx017.png",
+            "Images/Baryonyx swimming.mp4"
+        ],
+        links: []
+    },
     "aion": {
         title: "Aion",
         type: "Endureeon / Character / Work in progress",
@@ -103,7 +130,7 @@ const projects = {
     "ceratosaurus": {
         title: "Ceratosaurus",
         type: "Creature / stylized game asset",
-        description: "Stylized Ceratosaurus creature model built for game-ready presentation, with Blender EEVEE renders, render passes and animation-focused showcase material.",
+        description: "A stylized Ceratosaurus creature design grounded in paleontology and real animal anatomy. Iguanas and chameleons provide references for speculative scale patterns and skin details, shaping its scaly, somewhat armored appearance. Built for game-ready presentation, with Blender EEVEE renders, render passes and animation-focused showcase material.",
         tags: ["Creature", "Dinosaur", "Game Asset", "Stylized", "Animation", "Blender"],
         images: [
             "Images/Cerato07.PNG",
